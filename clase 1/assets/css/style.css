@@ -34,6 +34,31 @@
                         "main    main    main     main"
                         "footer  footer  footer   footer";
 }
+.loading{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.555);
+    z-index: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading i{
+    color: white;
+    font-size: 64px;
+    animation-name: rotar;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}  
+@keyframes rotar{
+0%{
+    transform: rotateZ(0deg);
+}
+100%{
+    transform: rotateZ(360deg);
+}  
+}  
 nav .fa-bars{
     display: none;
 }
