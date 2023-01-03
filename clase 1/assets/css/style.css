@@ -160,11 +160,12 @@ main{
     font-size: 45px;
     font-family: OpenSans-Regular
 }
-.cardPadre{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items:center
+.conteiner{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+    grid-gap: 20px;
+    padding: 20px;    
 }
 .card1{
     border: solid 10px;
