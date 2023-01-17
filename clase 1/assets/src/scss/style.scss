@@ -44,11 +44,11 @@
   color: white;
   font-size: 64px;
   -webkit-animation-name: rotar;
-  animation-name: rotar;
+          animation-name: rotar;
   -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
+          animation-duration: 0.5s;
   -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes rotar {
@@ -59,6 +59,7 @@
     transform: rotateZ(360deg);
   }
 }
+
 @keyframes rotar {
   0% {
     transform: rotateZ(0deg);
@@ -402,7 +403,7 @@ footer .sucursal ul {
   display: flex;
   width: 1010px;
   -moz-column-gap: 35px;
-  column-gap: 35px;
+       column-gap: 35px;
   border-style: outset;
   justify-content: center;
   align-items: center;
@@ -436,7 +437,7 @@ footer .sucursal ul {
   justify-content: space-around;
   align-items: center;
   -moz-column-gap: 110px;
-  column-gap: 110px;
+       column-gap: 110px;
   row-gap: 70px;
 }
 
@@ -557,7 +558,7 @@ footer .sucursal ul {
   flex-wrap: wrap;
   align-items: stretch;
   -moz-column-gap: 110px;
-  column-gap: 110px;
+       column-gap: 110px;
   row-gap: 50px;
 }
 
