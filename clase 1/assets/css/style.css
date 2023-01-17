@@ -6,6 +6,69 @@
   box-sizing: border-box;
 }
 
+nav .fa-bars {
+  display: none;
+}
+
+.navv {
+  grid-area: nav;
+  padding: 20px;
+  background-color: #010712;
+  display: flex;
+  justify-content: center;
+}
+.navv .logonav {
+  width: 60px;
+  margin-right: 100px;
+}
+.navv > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+}
+.navv > ul > li {
+  position: relative;
+}
+.navv > ul > li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 17px;
+  font-size: 30px;
+}
+@media (max-width: 576px) {
+  .navv nav {
+    justify-content: space-between;
+  }
+  .navv nav .fa-bars {
+    display: block;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .navv nav .fa-bars .logonav {
+    position: static;
+  }
+  .navv nav .fa-bars:hover + ul {
+    left: 0;
+  }
+  .navv nav > ul {
+    position: fixed;
+    flex-direction: column;
+    background-color: #010712;
+    width: 250px;
+    height: 100vh;
+    justify-content: start;
+    padding-top: 60px;
+    align-items: center;
+    left: -300px;
+    transition: 0.2s;
+  }
+  .navv nav > ul:hover {
+    left: 0;
+  }
+}
+
 @font-face {
   font-family: OpenSans-Regular;
   src: url(../fonts/static/OpenSans/OpenSans-Regular.ttf);
@@ -65,73 +128,6 @@
   }
   100% {
     transform: rotateZ(360deg);
-  }
-}
-nav .fa-bars {
-  display: none;
-}
-
-.navv {
-  grid-area: nav;
-  padding: 20px;
-  background-color: #010712;
-  display: flex;
-  justify-content: center;
-}
-
-.logonav {
-  width: 60px;
-  margin-right: 100px;
-}
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: end;
-}
-
-nav ul li {
-  position: relative;
-}
-
-nav ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 17px;
-  font-size: 30px;
-}
-
-@media (max-width: 576px) {
-  nav {
-    justify-content: space-between;
-  }
-  nav .fa-bars {
-    display: block;
-    color: white;
-    font-size: 30px;
-    padding: 20px;
-  }
-  nav .fa-bars:hover + ul {
-    left: 0;
-  }
-  nav ul {
-    position: fixed;
-    flex-direction: column;
-    background-color: #010712;
-    width: 250px;
-    height: 100vh;
-    justify-content: start;
-    padding-top: 60px;
-    align-items: center;
-    left: -300px;
-    transition: 0.2s;
-  }
-  nav ul:hover {
-    left: 0;
-  }
-  .logonav {
-    position: static;
   }
 }
 .portadaindex {
