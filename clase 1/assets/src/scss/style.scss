@@ -2,6 +2,10 @@
 @import "reset";
 @import "fonts";
 @import "navbar";
+@import "variables";
+@import "cardsplanes";
+@import "extend";
+@import "mixing";
 @font-face {
   font-family: OpenSans-Regular;
   src: url(../fonts/static/OpenSans/OpenSans-Regular.ttf);
@@ -72,6 +76,12 @@
   display: flex;
   justify-content: right;
   align-items: center;
+}
+button{
+  @include button(black,white);
+  position: relative;
+  bottom: 40px;
+  right: 40px;
 }
 
 .portadaindex-info {
@@ -479,83 +489,6 @@ footer .sucursal ul {
   text-decoration: none;
   font-size: 46px;
 }
-
-.cardPadrep {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: stretch;
-  -moz-column-gap: 110px;
-       column-gap: 110px;
-  row-gap: 50px;
-}
-
-.card1p {
-  width: 400px;
-  height: 400px;
-  border: solid 10px;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 10px;
-  background-color: #A6A6A6;
-}
-
-.card__img1p {
-  width: 30%;
-  margin: 5px;
-}
-
-.card__title1p {
-  margin: 2px;
-  font-size: smaller;
-}
-
-.card2p {
-  width: 400px;
-  height: 400px;
-  border: solid 10px;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 10px;
-  background-color: #A6A6A6;
-}
-
-.card__img2p {
-  width: 30%;
-  margin: 1px;
-}
-
-.card__title2p {
-  margin: 2px;
-  font-size: smaller;
-}
-
-.card3p {
-  width: 400px;
-  height: 400px;
-  border: solid 10px;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 10px;
-  background-color: #A6A6A6;
-}
-
-.card__img3p {
-  width: 30%;
-  margin: 2px;
-}
-
-.card__title3p {
-  margin: 2px;
-  font-size: smaller;
-}
-
-.cardPadrep button {
-  font-size: 30px;
-  margin-top: 30px;
-}
-
 /*bootstrap*/
 .contenidoa {
   color: white !important;
