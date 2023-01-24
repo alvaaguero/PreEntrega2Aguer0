@@ -1,0 +1,10 @@
+@mixin card ($fondo){
+    border: solid 10px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    background-color: $fondo;
+}
+@mixin button{
+
+}
