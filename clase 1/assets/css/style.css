@@ -16,6 +16,7 @@ nav .fa-bars {
   background-color: #010712;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .navv .logonav {
   width: 60px;
@@ -35,38 +36,6 @@ nav .fa-bars {
   text-decoration: none;
   padding: 17px;
   font-size: 30px;
-}
-@media (max-width: 576px) {
-  .navv nav {
-    justify-content: space-between;
-  }
-  .navv nav .fa-bars {
-    display: block;
-    color: white;
-    font-size: 30px;
-    padding: 20px;
-  }
-  .navv nav .fa-bars .logonav {
-    position: static;
-  }
-  .navv nav .fa-bars:hover + ul {
-    left: 0;
-  }
-  .navv nav > ul {
-    position: fixed;
-    flex-direction: column;
-    background-color: #010712;
-    width: 250px;
-    height: 100vh;
-    justify-content: start;
-    padding-top: 60px;
-    align-items: center;
-    left: -300px;
-    transition: 0.2s;
-  }
-  .navv nav > ul:hover {
-    left: 0;
-  }
 }
 
 .cardPadrep {
@@ -141,7 +110,7 @@ nav .fa-bars {
 .bodyIndex {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 105px 350px auto 150px 100px;
+  grid-template-rows: 105px 350px auto 150px auto;
   grid-template-areas: "nav    nav    nav    nav    nav" "header header header header header" "main   main   main   main   main" "aside  aside  aside  aside  aside" "footer footer footer footer footer";
 }
 
@@ -221,12 +190,13 @@ nav .fa-bars {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
   }
   .portadaindex-info h1 {
-    font-size: 48px;
+    font-size: 50px;
   }
   .portadaindex-info p {
-    font-size: 24pxpx;
+    font-size: 24px;
   }
 }
 main h2 {
