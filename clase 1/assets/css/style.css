@@ -428,157 +428,16 @@ p {
 }
 /*Home final*/
 
-/*somosms*/
-.portadasomosms {
-  width: 100%;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-image: url(../img/v617batch2-bb-01-technology.jpg);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.portadasomosms-info {
-  color: aliceblue;
-  margin-right: 33px;
-  margin-top: 10px;
-  font-size: 40px;
-  background-color: rgba(0, 0, 0, 0.507);
-}
 
-.subtituloms {
-  font-style: unset;
-  height: 80px;
-  background-color: #13171F;
-  color: aliceblue;
-  text-decoration: none;
-  font-size: 46px;
-}
 
-.bases {
-  display: flex;
-  width: 1010px;
-  -moz-column-gap: 35px;
-  column-gap: 35px;
-  border-style: outset;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  margin-left: 90px;
-  margin-bottom: 60px;
-}
 
-.bases img {
-  width: 700px;
-}
 
-.bases-info {
-  display: flex;
-  font-size: 20px;
-  color: white;
-}
 
-.subtituloMS {
-  font-style: unset;
-  height: 80px;
-  background-color: #13171F;
-  color: aliceblue;
-  text-decoration: none;
-  font-size: 46px;
-}
 
-.cardPadrems {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  -moz-column-gap: 110px;
-  column-gap: 110px;
-  row-gap: 70px;
-}
 
-.card1ms {
-  width: 250px;
-  height: 400px;
-  padding: 20px;
-  margin: 5px;
-  color: white;
-}
 
-.card__img1ms {
-  width: 30%;
-  margin: 5px;
-}
 
-.card__title1ms {
-  margin: 2px;
-  font-size: smaller;
-}
-
-.card2ms {
-  width: 250px;
-  height: 400px;
-  padding: 20px;
-  margin: 5px;
-  color: white;
-}
-
-.card__img2ms {
-  width: 30%;
-  margin: 1px;
-}
-
-.card__title2ms {
-  margin: 2px;
-  font-size: smaller;
-}
-
-.card3ms {
-  width: 250px;
-  height: 400px;
-  padding: 20px;
-  margin: 5px;
-  color: white;
-}
-
-.card__img3ms {
-  width: 30%;
-  margin: 2px;
-}
-
-.card__title3ms {
-  margin: 2px;
-  font-size: smaller;
-}
-
-.card4ms {
-  width: 250px;
-  height: 400px;
-  padding: 20px;
-  margin: 5px;
-  color: white;
-}
-
-.card__img4ms {
-  width: 30%;
-  margin: 2px;
-}
-
-.card__title4ms {
-  margin: 2px;
-  font-size: smaller;
-}
-
-.asidems {
-  width: 100%;
-  height: 100px;
-  background-color: #24262D;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
 /*planes*/
 .portadaplanes {
