@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 nav .fa-bars {
@@ -607,6 +609,135 @@ p {
 }
 
 /*Planes fin*/
+
+/*Contactos*/
+.Sub-headerrr {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), 
+  url(../img/portada\ cotacto.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.Sub-headerrr h1 {
+  margin-top: 100px;
+}
+
+.about-us {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.about-col img {
+  width: 100%;
+}
+
+.about-col h1 {
+  padding-top: 0;
+}
+
+.about-col p {
+  padding: 15px 0 25px;
+}
+
+.titulplan{
+  color: #24f8c7;
+  text-decoration: none;
+}
+
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.location iframe {
+  width: 100%;
+}
+
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+
+.content-col {
+  flex-basis: 48%;
+  margin-bottom: 60px;
+}
+
+.content-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.content-col div .fa {
+  font-size: 28px;
+  color: #24f8c7;
+  margin: 10px;
+  margin-right: 30px;
+}
+
+.content-col div p {
+  padding: 0;
+}
+
+.content-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
+}
+
+.content-col input, .content-col textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  border: 1px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+}
+.content-col img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.btn {
+  border: 1px solid #5236f4;
+  background: transparent;
+  color: #5236f4;
+}
+
+.btn:hover {
+  color: #fff;
+}
+.titulcontac{
+  text-decoration: none;
+  color:#24f8c7;
+  font-weight: bold;
+  font-size:50px;
+}
+@media(max-width: 451px) {
+  .titulcontac{
+    font-size:40px;
+  }
+}
+@media(max-width: 400px) {
+  .titulcontac{
+    font-size:30px;
+  }
+}
+/* Contactos FIN*/
+
 /*Footer*/
 footer {
   width: 100%;
@@ -654,5 +785,4 @@ footer a:hover {
 hr {
   border: 0.01px solid #5236f4;
 }
-
-/*Footer Section End*/
+/*Footer FIN*/
